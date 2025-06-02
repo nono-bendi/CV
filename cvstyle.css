@@ -1,5 +1,5 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #f4f4f4;
@@ -50,3 +50,21 @@ a {
 }
 
 
+@media screen { 
+  body {
+    font-size: 1em;
+  }
+  
+  .container {
+    padding: 1.5rem;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+}
